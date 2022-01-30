@@ -1,0 +1,44 @@
+$primary: #7151a9;
+// $box-shadow: 0 1rem 3rem rgba(172, 139, 238, 0.25);
+
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
+
+#landing-section {
+  background: linear-gradient(-45deg, #ebe0ff, #ffffff, #ebe0ff);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#usp-section {
+  background: linear-gradient(-45deg, #ebe0ff, #916dd5, #7151a9, #573d7f);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+#pricing-section {
+  background: linear-gradient(-45deg, #ebe0ff, #ffffff, #ebe0ff);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.image {
+  span {
+    display: block !important;
+  }
+}
