@@ -10,6 +10,7 @@ const Navbar = () => {
             width={253}
             height={36}
             quality={90}
+            alt="decenode logo"
           />
         </a>
         <button
