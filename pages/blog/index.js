@@ -22,6 +22,7 @@ const Index = ({ posts }) => {
                     title,
                     description,
                     author,
+                    author_image,
                     date,
                     cover_image,
                   },
@@ -38,16 +39,25 @@ const Index = ({ posts }) => {
                         quality={90}
                       />
                       <div className="card-body">
+                        <div className="d-flex flex align-items-center my-3">
+                          <Image
+                            src={author_image}
+                            width={25}
+                            height={25}
+                            alt={author}
+                            quality={90}
+                            objectFit="cover"
+                            className="rounded-circle"
+                          />
+                          <span className="mb-0 mx-2">{author}</span>
+                        </div>
                         <h2 className="fw-bold">
                           <Link href={"/blog/[slug]"} as={`/blog/${slug}`}>
                             <a className="text-decoration-none">{title}</a>
                           </Link>
                         </h2>
-                        <p className="card-text text-muted">{description}</p>
-                        <p className="card-subtitle text-muted mb-0">
-                          Written by <span className="text-dark">{author}</span>{" "}
-                          on {date}
-                        </p>
+                        <p className="card-text text-muted fst-italic">&quot;{description}&quot;</p>
+                        <span className="text-muted">{date}</span>
                       </div>
                     </div>
                   </div>

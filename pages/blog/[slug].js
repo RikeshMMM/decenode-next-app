@@ -14,7 +14,7 @@ const Blog = ({ content, frontmatter }) => {
             <div className="my-5">
               <h1 className="fw-bold display-3 my-3">{frontmatter.title}</h1>
               <p className="fst-italic">
-                Soon after what felt like having a &quot;Eureka!&quot; moment.
+              &quot;{frontmatter.description}&quot;
               </p>
             </div>
             <div className="d-flex flex align-items-center justify-content-center">

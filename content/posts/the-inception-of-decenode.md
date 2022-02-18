@@ -1,6 +1,6 @@
 ---
 title: The Inception of Decenode
-description: If you’ve ever tried running a complex ML model with a gigantic dataset, you must indeed be familiar with the hassles of it taking hours and hours of setting up, debugging, optimizing and training.
+description: Soon after what felt like having a Eureka! moment...
 author: Aaishwarya Khalane
 date: 2022-02-17
 type: Blog Post
