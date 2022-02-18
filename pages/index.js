@@ -122,7 +122,7 @@ export default function Home() {
                     <USPCard
                       image="/images/hosts-money.png"
                       title="Hosts"
-                      text="To ear profits by renting out their spare, unused computation power to other users in need of it"
+                      text="To earn profits by renting out their spare, unused computation power to other users in need of it"
                     />
                   </div>
                   <div className="col-sm-4">
@@ -221,7 +221,7 @@ export default function Home() {
                     title="Pro"
                     price="10"
                     caption="For frequent users who need more"
-                    desc1="PAll Benefits as Basic"
+                    desc1="All Benefits as Basic"
                     desc2="24/7 Live Support"
                     desc3="4% per transaction + 0.30 cents"
                     btn="Get Started"
@@ -257,7 +257,7 @@ export default function Home() {
               <RevealWhenVisible>
                 <div className="image shadow d-block">
                   <Image
-                    src={"images/our-team.png"}
+                    src={"/images/our-team.png"}
                     width={1920}
                     height={732}
                     alt="our team picture"
